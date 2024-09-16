@@ -4,6 +4,7 @@ metadata:
   name: pipecd-tutorial-simple
   labels:
     app: pipecd-tutorial-simple
+    type: additional-label-for-cd-cycle
 spec:
   replicas: 2
   selector:
