@@ -5,7 +5,7 @@ metadata:
   labels:
     app: pipecd-tutorial-canary
 spec:
-  replicas: 2
+  replicas: 10
   revisionHistoryLimit: 2
   selector:
     matchLabels:
